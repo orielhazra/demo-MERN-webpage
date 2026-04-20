@@ -1,0 +1,20 @@
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.looping-items {
+  display: flex;
+  white-space: nowrap; /* Prevent items from wrapping */
+  animation: scroll-left 20s linear infinite; /* Adjust 20s for speed */
+}
+
+.looping-items .motion-div {
+  flex-shrink: 0; /* Prevent items from shrinking */
+  margin-right: 1rem; /* Space between items */
+}

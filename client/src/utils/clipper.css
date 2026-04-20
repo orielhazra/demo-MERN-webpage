@@ -1,0 +1,15 @@
+.clip-custom {
+    clip-path: polygon(0% 30%, 100% -6px, 100% 100%, 0% 100%);
+  }
+  
+.md\:clip-custom {
+    clip-path: polygon(0% 30%, 100% -6px, 100% 100%, 0% 100%);
+    }
+
+.lg\:clip-custom {
+    clip-path: polygon(0% 30%, 100% -6px, 100% 100%, 0% 100%);
+  }
+
+.clip-footer {
+    clip-path: polygon(0% 60%, 100% 0, 100% 100%, 0% 100%);
+  }
